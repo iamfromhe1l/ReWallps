@@ -1,0 +1,10 @@
+.content {
+	display: grid;
+	grid-template-areas: 'a a';
+}
+
+@media only screen and (max-width: 810px) {
+	.content {
+		display: inline;
+	}
+}

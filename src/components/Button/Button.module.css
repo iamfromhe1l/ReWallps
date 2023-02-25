@@ -1,0 +1,31 @@
+.button {
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid rgb(161, 161, 161);
+	color: rgb(161, 161, 161);
+	padding: 10px 80px;
+	border-radius: 10px;
+	font-size: 13px;
+	margin: 10px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: black;
+	background-color: rgb(206, 220, 218);
+	border: 0px;
+}
+
+.button:disabled {
+	cursor:default;
+	color: rgb(38, 38, 38);
+	background-color: rgb(163, 173, 171);
+	border: 0px;
+}
+
+@media only screen and (max-width: 810px) {
+	.button {
+		padding: 10px 100px;
+	}
+}
