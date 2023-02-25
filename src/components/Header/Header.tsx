@@ -5,20 +5,20 @@ import logo from './logo.png';
 import { Link } from 'react-router-dom';
 
 export default function Header({}: HeaderProps): JSX.Element {
-  return (
-    <div className={styles.header}>
-      <div className={styles['header-left']}>
-        <img src={logo} alt='ReWallps' className={styles.logo} />
-      </div>
+    return (
+        <div className={styles.header}>
+            <div className={styles['header-left']}>
+                <img src={logo} alt='ReWallps' className={styles.logo} />
+            </div>
 
-      <div className={styles['header-right']}>
-        <Link className={styles.a} to='/'>
-          IPhone
-        </Link>
-        <Link className={styles.a} to='/macbook'>
-          MacBook
-        </Link>
-      </div>
-    </div>
-  );
+            <div className={styles['header-right']}>
+                <Link className={styles.a} to='/iphone'>
+                    IPhone
+                </Link>
+                <Link className={styles.a} to='/macbook'>
+                    MacBook
+                </Link>
+            </div>
+        </div>
+    );
 }
