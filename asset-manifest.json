@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReWallps/static/css/main.afa2adc3.css",
-    "main.js": "/ReWallps/static/js/main.41dcc835.js",
+    "main.js": "/ReWallps/static/js/main.8ef9918d.js",
     "static/media/logo.png": "/ReWallps/static/media/logo.8c5ee7d00e1cfd7da57b.png",
     "index.html": "/ReWallps/index.html",
     "main.afa2adc3.css.map": "/ReWallps/static/css/main.afa2adc3.css.map",
-    "main.41dcc835.js.map": "/ReWallps/static/js/main.41dcc835.js.map"
+    "main.8ef9918d.js.map": "/ReWallps/static/js/main.8ef9918d.js.map"
   },
   "entrypoints": [
     "static/css/main.afa2adc3.css",
-    "static/js/main.41dcc835.js"
+    "static/js/main.8ef9918d.js"
   ]
 }
